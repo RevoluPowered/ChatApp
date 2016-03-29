@@ -106,17 +106,31 @@ namespace ComServer
 
 			// Show the information in the console.
 			Console.WriteLine ("Accepted client connection");
+			//mProcessClientData.Reset ();
 
 			// Message data handler - process network message stream.
-			MessageDataHandler = new Thread(() => ProcessNetworkMessage( client.GetStream() ));
+			MessageDataHandler = new Thread(() => ProcessNetworkMessage( client ));
+			MessageDataHandler.Start ();
 			MessageDataHandler.Join ();
-
+			//mProcessClientData.WaitOne ();
 			Console.WriteLine ("Handling network data");
 
 		}
 
-		private void ProcessNetworkMessage(NetworkStream ns)
+		private void ProcessNetworkMessage(TcpClient client)
 		{
+			// Open network stream reference
+			NetworkStream ns = client.GetStream ();
+
+			string data = "";
+			// If data is available.
+			while (ns.DataAvailable) 
+			{
+				// Append byte
+				data += Convert.ToChar(ns.ReadByte());
+			}
+			// REMEMEBR NO ENCODING WAS CHECKED.
+			Console.WriteLine ("Data recieved: " + data);
 		}
 
 	}

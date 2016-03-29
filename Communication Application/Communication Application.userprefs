@@ -1,27 +1,12 @@
 ﻿<Properties StartupItem="ComServer/ComServer.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ComServer/UnitTests/ServerTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ComServer/Modules/Network/Server.cs">
     <Files>
-      <File FileName="ComServer/Program.cs" Line="11" Column="27" />
-      <File FileName="ComServer/Modules/Network/Server.cs" Line="27" Column="37" />
-      <File FileName="DummyClient/Program.cs" Line="15" Column="35" />
-      <File FileName="ComServer/UnitTests/ServerTest.cs" Line="22" Column="3" />
+      <File FileName="ComServer/Program.cs" Line="1" Column="1" />
+      <File FileName="ComServer/Modules/Network/Server.cs" Line="117" Column="4" />
+      <File FileName="DummyClient/Program.cs" Line="1" Column="1" />
+      <File FileName="ComServer/UnitTests/ServerTest.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State name="__root__">
-          <Node name="Communication Application" expanded="True">
-            <Node name="ComServer" expanded="True">
-              <Node name="ComServer" expanded="True">
-                <Node name="ServerTest" expanded="True">
-                  <Node name="ServerStartup" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
