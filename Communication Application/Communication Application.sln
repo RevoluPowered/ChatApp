@@ -3,12 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComServer", "ComServer\ComServer.csproj", "{F3D27477-43EC-4DA6-87C4-C3EE531FD59F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyClient", "DummyClient\DummyClient.csproj", "{BE48A68B-596D-498D-A40F-39B194C014DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE48A68B-596D-498D-A40F-39B194C014DC}.Debug|x86.ActiveCfg = Debug|x86
+		{BE48A68B-596D-498D-A40F-39B194C014DC}.Debug|x86.Build.0 = Debug|x86
+		{BE48A68B-596D-498D-A40F-39B194C014DC}.Release|x86.ActiveCfg = Release|x86
+		{BE48A68B-596D-498D-A40F-39B194C014DC}.Release|x86.Build.0 = Release|x86
 		{F3D27477-43EC-4DA6-87C4-C3EE531FD59F}.Debug|x86.ActiveCfg = Debug|x86
 		{F3D27477-43EC-4DA6-87C4-C3EE531FD59F}.Debug|x86.Build.0 = Debug|x86
 		{F3D27477-43EC-4DA6-87C4-C3EE531FD59F}.Release|x86.ActiveCfg = Release|x86
