@@ -7,6 +7,8 @@ namespace ComServer
 		public static void Main (string[] args)
 		{
 			Console.WriteLine ("Hello World!");
+			Server mServer = new Server ();
+			mServer.StartServer ();
 		}
 	}
 }
