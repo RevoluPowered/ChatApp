@@ -34,7 +34,7 @@ namespace ComServer
 		/// <summary>
 		/// The port which the server executes from.
 		/// </summary>
-		public int port { get; set; }
+		public int port { get; set; } = 27015;
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ComServer.Server"/> class.
 		/// </summary>

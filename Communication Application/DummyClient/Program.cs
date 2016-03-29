@@ -10,6 +10,7 @@ namespace DummyClient
 		{
 			Console.WriteLine ("Starting the dummy client...");
 
+
 			// SOCKET INFO
 			int hostPort = 27015; // port to connect on.
 			string hostIPAddress = "127.0.0.1"; // local unless otherwise specified.
